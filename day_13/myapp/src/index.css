@@ -1,0 +1,77 @@
+/* Global styles for the app */
+:root{
+  --bg: #fafafa;
+  --muted: #666;
+  --card-bg: #fff;
+  --accent: #ff7a18;
+}
+html,body,#root{height:100%;}
+body{
+  margin:0;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+  background: var(--bg);
+  color: #111;
+  -webkit-font-smoothing:antialiased;
+}
+.app{
+  min-height:100vh;
+  display:flex;
+  flex-direction:column;
+}
+.body{
+  width:95%;
+  max-width:1100px;
+  margin: 24px auto;
+}
+.search{
+  margin-bottom:14px;
+}
+.search input{
+  width:100%;
+  max-width:420px;
+  padding:8px 10px;
+  border-radius:8px;
+  border:1px solid #ddd;
+}
+.products{
+  display:flex;
+  flex-wrap:wrap;
+  gap:20px;
+}
+.product{
+  width:200px;
+  background:var(--card-bg);
+  border-radius:10px;
+  padding:10px;
+  box-shadow:0 4px 10px rgba(0,0,0,0.06);
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+}
+.product img{
+  width:160px;
+  height:160px;
+  object-fit:cover;
+  border-radius:6px;
+}
+.product h2{
+  font-size:16px;
+  margin:8px 0 4px;
+}
+.product h3{
+  color:var(--muted);
+  font-size:14px;
+  margin:0;
+}
+.footer{
+  margin-top:auto;
+  background: #111;
+  color:#fff;
+  padding:12px 0;
+}
+.footer-inner{
+  width:95%;
+  max-width:1100px;
+  margin:0 auto;
+  text-align:center;
+}

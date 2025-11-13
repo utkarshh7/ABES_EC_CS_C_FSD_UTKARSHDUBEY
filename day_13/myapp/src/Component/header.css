@@ -1,0 +1,43 @@
+.header{
+    background: linear-gradient(90deg,#ff7a18,#ffb199);
+    padding: 10px 0;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+}
+.nav-container{
+    width: 95%;
+    max-width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.logo img{
+    width: 40px;
+    height: 40px;
+}
+.brand{
+    color: #fff;
+    font-weight: 700;
+    font-size: 18px;
+}
+.nav-items{
+    display: flex;
+    gap: 18px;
+}
+.nav-items a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+    font-size: 15px;
+    padding: 6px 8px;
+    border-radius: 6px;
+}
+.nav-items a:hover{
+    background: rgba(255,255,255,0.18);
+    color: #111;
+}
