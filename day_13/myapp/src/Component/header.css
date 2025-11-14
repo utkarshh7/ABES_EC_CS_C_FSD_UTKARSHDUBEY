@@ -42,7 +42,7 @@
     color: #111;
 }
 
-.header{
+/* .header{
     background: linear-gradient(90deg,#ff7a18,#ffb199);
     padding: 10px 0;
     box-shadow: 0 2px 6px rgba(0,0,0,0.08);
@@ -630,4 +630,4 @@
 .nav-items a:hover{
     background: rgba(255,255,255,0.18);
     color: #111;
-}
+} */
