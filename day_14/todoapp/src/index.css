@@ -14,7 +14,6 @@ body{
   align-items:center;
   justify-content:center;
 }
-/* hello */
 .todo-list{
   width: 360px;
   background: var(--card);
